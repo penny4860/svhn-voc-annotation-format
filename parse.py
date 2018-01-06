@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
+
+from xml.etree.ElementTree import Element, SubElement, ElementTree, dump
+import os
 import json
+
 def indent(elem, level=0):
     i = "\n" + level*"  "
     if len(elem):
@@ -31,54 +35,55 @@ def get_size_text(img_folder, fname):
     h, w, _ = img.shape
     return str(w), str(h), str(3)
 
-from xml.etree.ElementTree import Element, SubElement, dump
-import os
-
-IMG_FOLDER = "imgs"
-
-json_data=open("imgs//annotation.json").read()
-anns = json.loads(json_data)
-for ann in anns:
-    boxes = []
-    root = Element('annotation')
-    fname = SubElement(root, "filename")
-    fname.text = ann["filename"]
+class VocAnnGenerator(object):
+    def __init__(self, ann_file, img_folder):
+        self._ann_file = ann_file
+        self._img_folder = img_folder
     
-    w, h, depth = get_size_text(IMG_FOLDER, ann["filename"])
-    size_tag = SubElement(root, "size")
-    w_tag = SubElement(size_tag, "width")
-    h_tag = SubElement(size_tag, "height")
-    depth_tag = SubElement(size_tag, "depth")
-    w_tag.text = w
-    h_tag.text = h
-    depth_tag.text = depth
-    
-    for b in ann['boxes']:
-        x1, y1, x2, y2 = get_box_text(b)
-
-        obj = SubElement(root, "object")
+    def run(self):
+        json_data=open(self._ann_file).read()
+        anns = json.loads(json_data)
+        for ann in anns:
+            boxes = []
+            root = Element('annotation')
+            fname = SubElement(root, "filename")
+            fname.text = ann["filename"]
+            
+            w, h, depth = get_size_text(self._img_folder, ann["filename"])
+            size_tag = SubElement(root, "size")
+            w_tag = SubElement(size_tag, "width")
+            h_tag = SubElement(size_tag, "height")
+            depth_tag = SubElement(size_tag, "depth")
+            w_tag.text = w
+            h_tag.text = h
+            depth_tag.text = depth
+            
+            for b in ann['boxes']:
+                x1, y1, x2, y2 = get_box_text(b)
         
-        label = SubElement(obj, "name")
-        label.text = get_label_text(b)
-        bndbox = SubElement(obj, "bndbox")
-
-        xmin = SubElement(bndbox, "xmin")
-        ymin = SubElement(bndbox, "ymin")
-        xmax = SubElement(bndbox, "xmax")
-        ymax = SubElement(bndbox, "ymax")
-        xmin.text = x1
-        ymin.text = y1
-        xmax.text = x2
-        ymax.text = y2
+                obj = SubElement(root, "object")
+                
+                label = SubElement(obj, "name")
+                label.text = get_label_text(b)
+                bndbox = SubElement(obj, "bndbox")
         
+                xmin = SubElement(bndbox, "xmin")
+                ymin = SubElement(bndbox, "ymin")
+                xmax = SubElement(bndbox, "xmax")
+                ymax = SubElement(bndbox, "ymax")
+                xmin.text = x1
+                ymin.text = y1
+                xmax.text = x2
+                ymax.text = y2
+                
+            
+            indent(root)
+            xml_fname = os.path.splitext(ann["filename"])[0] + ".xml"
+            ElementTree(root).write(xml_fname)
+
+gen = VocAnnGenerator(os.path.join("imgs", "annotation.json"), "imgs")
+gen.run()
     
-    indent(root)
-    from xml.etree.ElementTree import ElementTree
-    xml_fname = os.path.splitext(ann["filename"])[0] + ".xml"
-    ElementTree(root).write(xml_fname)
-    
-#     dump(root)
-#     print("======================================================")
 
 
         
