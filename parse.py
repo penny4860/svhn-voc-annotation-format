@@ -3,6 +3,7 @@
 from xml.etree.ElementTree import Element, SubElement, ElementTree, dump
 import os
 import json
+import argparse
 
 def indent(elem, level=0):
     i = "\n" + level*"  "
@@ -81,8 +82,21 @@ class VocAnnGenerator(object):
             xml_fname = os.path.splitext(ann["filename"])[0] + ".xml"
             ElementTree(root).write(xml_fname)
 
-gen = VocAnnGenerator(os.path.join("imgs", "annotation.json"), "imgs")
-gen.run()
+argparser = argparse.ArgumentParser(description='Train and validate YOLO_v2 model on any dataset')
+argparser.add_argument('-f',
+                       '--file',
+                       default=os.path.join("imgs", "annotation.json"),
+                       help='annotation file')
+
+argparser.add_argument('-d',
+                       '--directory',
+                       default="imgs",
+                       help='image direcotry path')
+
+if __name__ == '__main__':
+    args = argparser.parse_args()
+    gen = VocAnnGenerator(args.file, args.directory)
+    gen.run()
     
 
 
