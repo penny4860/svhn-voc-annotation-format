@@ -14,8 +14,6 @@ def indent(elem, level=0):
     else:
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
-
-
 def get_box_text(box):
     x1 = str(int(box["left"]))
     y1 = str(int(box["top"]))
@@ -27,8 +25,13 @@ def get_label_text(box):
     label_str = str(int(box["label"]))
     return label_str
 
+def get_size_text(img_folder, fname):
+    import matplotlib.pyplot as plt
+    img = plt.imread(os.path.join(img_folder, fname))
+    h, w, _ = img.shape
+    return str(w), str(h), str(3)
 
-from xml.etree.ElementTree import Element, SubElement, tostring, dump
+from xml.etree.ElementTree import Element, SubElement, dump
 import os
 
 IMG_FOLDER = "imgs"
@@ -41,17 +44,14 @@ for ann in anns:
     fname = SubElement(root, "filename")
     fname.text = ann["filename"]
     
-    import matplotlib.pyplot as plt
-    img = plt.imread(os.path.join(IMG_FOLDER, ann["filename"]))
-    h, w, _ = img.shape
-    
+    w, h, depth = get_size_text(IMG_FOLDER, ann["filename"])
     size_tag = SubElement(root, "size")
     w_tag = SubElement(size_tag, "width")
     h_tag = SubElement(size_tag, "height")
     depth_tag = SubElement(size_tag, "depth")
-    w_tag.text = str(w)
-    h_tag.text = str(h)
-    depth_tag.text = str(3)
+    w_tag.text = w
+    h_tag.text = h
+    depth_tag.text = depth
     
     for b in ann['boxes']:
         x1, y1, x2, y2 = get_box_text(b)
@@ -73,8 +73,12 @@ for ann in anns:
         
     
     indent(root)
-    dump(root)
-    print("======================================================")
+    from xml.etree.ElementTree import ElementTree
+    xml_fname = os.path.splitext(ann["filename"])[0] + ".xml"
+    ElementTree(root).write(xml_fname)
+    
+#     dump(root)
+#     print("======================================================")
 
 
         
