@@ -20,20 +20,36 @@ json_data=open("imgs//annotation.json").read()
 anns = json.loads(json_data)
 for ann in anns:
     boxes = []
-    for b in ann['boxes']:
-        x1 = b["left"]
-        y1 = b["top"]
-        x2 = b["left"] + b["width"]
-        y2 = b["top"] + b["height"]
-        minmax_box = (x1, y1, x2, y2)
-        boxes.append(minmax_box)
-
     root = Element('annotation')
-    child = SubElement(root, "filename")
-    child.text = ann["filename"]
+    fname = SubElement(root, "filename")
+    fname.text = ann["filename"]
+    
+    for b in ann['boxes']:
+        x1 = str(int(b["left"]))
+        y1 = str(int(b["top"]))
+        x2 = str(int(b["left"] + b["width"]))
+        y2 = str(int(b["top"] + b["height"]))
+        label_str = str(int(b["label"]))
+
+        obj = SubElement(root, "object")
+        
+        label = SubElement(obj, "name")
+        label.text = label_str
+        bndbox = SubElement(obj, "bndbox")
+
+        xmin = SubElement(bndbox, "xmin")
+        ymin = SubElement(bndbox, "ymin")
+        xmax = SubElement(bndbox, "xmax")
+        ymax = SubElement(bndbox, "ymax")
+        xmin.text = x1
+        ymin.text = y1
+        xmax.text = x2
+        ymax.text = y2
+        
+    
     indent(root)
     dump(root)
-    break
+    print("======================================================")
 
 
         
