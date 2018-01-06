@@ -1,0 +1,35 @@
+<annotation>
+  <filename>5139.png</filename>
+  <size>
+    <width>205</width>
+    <height>86</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>3</name>
+    <bndbox>
+      <xmin>66</xmin>
+      <ymin>37</ymin>
+      <xmax>94</xmax>
+      <ymax>77</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>91</xmin>
+      <ymin>19</ymin>
+      <xmax>124</xmax>
+      <ymax>59</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>10</name>
+    <bndbox>
+      <xmin>116</xmin>
+      <ymin>10</ymin>
+      <xmax>145</xmax>
+      <ymax>50</ymax>
+    </bndbox>
+  </object>
+</annotation>

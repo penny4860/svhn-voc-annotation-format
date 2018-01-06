@@ -1,0 +1,35 @@
+<annotation>
+  <filename>3413.png</filename>
+  <size>
+    <width>130</width>
+    <height>63</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>42</xmin>
+      <ymin>29</ymin>
+      <xmax>60</xmax>
+      <ymax>56</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>55</xmin>
+      <ymin>21</ymin>
+      <xmax>76</xmax>
+      <ymax>48</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>67</xmin>
+      <ymin>11</ymin>
+      <xmax>87</xmax>
+      <ymax>38</ymax>
+    </bndbox>
+  </object>
+</annotation>

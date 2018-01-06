@@ -1,0 +1,35 @@
+<annotation>
+  <filename>20202.png</filename>
+  <size>
+    <width>304</width>
+    <height>127</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>5</name>
+    <bndbox>
+      <xmin>140</xmin>
+      <ymin>65</ymin>
+      <xmax>167</xmax>
+      <ymax>96</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>10</name>
+    <bndbox>
+      <xmin>157</xmin>
+      <ymin>61</ymin>
+      <xmax>184</xmax>
+      <ymax>92</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>176</xmin>
+      <ymin>43</ymin>
+      <xmax>204</xmax>
+      <ymax>74</ymax>
+    </bndbox>
+  </object>
+</annotation>

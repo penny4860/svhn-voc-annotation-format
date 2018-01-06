@@ -1,0 +1,35 @@
+<annotation>
+  <filename>1964.png</filename>
+  <size>
+    <width>129</width>
+    <height>51</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>59</xmin>
+      <ymin>12</ymin>
+      <xmax>71</xmax>
+      <ymax>39</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>68</xmin>
+      <ymin>11</ymin>
+      <xmax>79</xmax>
+      <ymax>38</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>78</xmin>
+      <ymin>8</ymin>
+      <xmax>88</xmax>
+      <ymax>35</ymax>
+    </bndbox>
+  </object>
+</annotation>

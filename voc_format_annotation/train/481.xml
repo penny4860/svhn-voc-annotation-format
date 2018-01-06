@@ -1,0 +1,35 @@
+<annotation>
+  <filename>481.png</filename>
+  <size>
+    <width>242</width>
+    <height>69</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>5</name>
+    <bndbox>
+      <xmin>130</xmin>
+      <ymin>17</ymin>
+      <xmax>147</xmax>
+      <ymax>48</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>8</name>
+    <bndbox>
+      <xmin>146</xmin>
+      <ymin>18</ymin>
+      <xmax>164</xmax>
+      <ymax>49</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>3</name>
+    <bndbox>
+      <xmin>164</xmin>
+      <ymin>17</ymin>
+      <xmax>180</xmax>
+      <ymax>48</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,35 @@
+<annotation>
+  <filename>19450.png</filename>
+  <size>
+    <width>379</width>
+    <height>175</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>127</xmin>
+      <ymin>70</ymin>
+      <xmax>150</xmax>
+      <ymax>114</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>145</xmin>
+      <ymin>79</ymin>
+      <xmax>161</xmax>
+      <ymax>123</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>158</xmin>
+      <ymin>72</ymin>
+      <xmax>178</xmax>
+      <ymax>116</ymax>
+    </bndbox>
+  </object>
+</annotation>

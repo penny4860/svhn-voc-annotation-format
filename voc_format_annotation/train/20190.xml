@@ -1,0 +1,26 @@
+<annotation>
+  <filename>20190.png</filename>
+  <size>
+    <width>115</width>
+    <height>53</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>8</name>
+    <bndbox>
+      <xmin>39</xmin>
+      <ymin>10</ymin>
+      <xmax>55</xmax>
+      <ymax>47</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>10</name>
+    <bndbox>
+      <xmin>58</xmin>
+      <ymin>6</ymin>
+      <xmax>76</xmax>
+      <ymax>43</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+  <filename>703.png</filename>
+  <size>
+    <width>99</width>
+    <height>41</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>5</name>
+    <bndbox>
+      <xmin>31</xmin>
+      <ymin>4</ymin>
+      <xmax>48</xmax>
+      <ymax>33</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>3</name>
+    <bndbox>
+      <xmin>51</xmin>
+      <ymin>3</ymin>
+      <xmax>71</xmax>
+      <ymax>32</ymax>
+    </bndbox>
+  </object>
+</annotation>

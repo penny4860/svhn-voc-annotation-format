@@ -1,0 +1,35 @@
+<annotation>
+  <filename>859.png</filename>
+  <size>
+    <width>296</width>
+    <height>170</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>127</xmin>
+      <ymin>25</ymin>
+      <xmax>146</xmax>
+      <ymax>64</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>8</name>
+    <bndbox>
+      <xmin>137</xmin>
+      <ymin>67</ymin>
+      <xmax>156</xmax>
+      <ymax>106</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>10</name>
+    <bndbox>
+      <xmin>149</xmin>
+      <ymin>103</ymin>
+      <xmax>170</xmax>
+      <ymax>142</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,35 @@
+<annotation>
+  <filename>2012.png</filename>
+  <size>
+    <width>209</width>
+    <height>65</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>113</xmin>
+      <ymin>10</ymin>
+      <xmax>128</xmax>
+      <ymax>58</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>5</name>
+    <bndbox>
+      <xmin>121</xmin>
+      <ymin>8</ymin>
+      <xmax>143</xmax>
+      <ymax>56</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>6</name>
+    <bndbox>
+      <xmin>139</xmin>
+      <ymin>4</ymin>
+      <xmax>153</xmax>
+      <ymax>52</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,35 @@
+<annotation>
+  <filename>12014.png</filename>
+  <size>
+    <width>117</width>
+    <height>56</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>38</xmin>
+      <ymin>9</ymin>
+      <xmax>50</xmax>
+      <ymax>47</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>49</xmin>
+      <ymin>8</ymin>
+      <xmax>63</xmax>
+      <ymax>46</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>64</xmin>
+      <ymin>5</ymin>
+      <xmax>78</xmax>
+      <ymax>43</ymax>
+    </bndbox>
+  </object>
+</annotation>

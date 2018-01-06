@@ -1,0 +1,17 @@
+<annotation>
+  <filename>2019.png</filename>
+  <size>
+    <width>201</width>
+    <height>75</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>118</xmin>
+      <ymin>9</ymin>
+      <xmax>148</xmax>
+      <ymax>57</ymax>
+    </bndbox>
+  </object>
+</annotation>

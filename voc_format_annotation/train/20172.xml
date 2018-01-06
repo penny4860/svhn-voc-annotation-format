@@ -1,0 +1,35 @@
+<annotation>
+  <filename>20172.png</filename>
+  <size>
+    <width>233</width>
+    <height>92</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>78</xmin>
+      <ymin>25</ymin>
+      <xmax>95</xmax>
+      <ymax>84</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>10</name>
+    <bndbox>
+      <xmin>101</xmin>
+      <ymin>18</ymin>
+      <xmax>120</xmax>
+      <ymax>77</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>118</xmin>
+      <ymin>1</ymin>
+      <xmax>140</xmax>
+      <ymax>60</ymax>
+    </bndbox>
+  </object>
+</annotation>

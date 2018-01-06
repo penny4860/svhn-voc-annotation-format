@@ -1,0 +1,35 @@
+<annotation>
+  <filename>9019.png</filename>
+  <size>
+    <width>153</width>
+    <height>63</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>51</xmin>
+      <ymin>1</ymin>
+      <xmax>69</xmax>
+      <ymax>52</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>73</xmin>
+      <ymin>5</ymin>
+      <xmax>88</xmax>
+      <ymax>56</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>85</xmin>
+      <ymin>9</ymin>
+      <xmax>112</xmax>
+      <ymax>60</ymax>
+    </bndbox>
+  </object>
+</annotation>

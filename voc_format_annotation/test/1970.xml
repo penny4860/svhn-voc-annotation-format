@@ -1,0 +1,26 @@
+<annotation>
+  <filename>1970.png</filename>
+  <size>
+    <width>291</width>
+    <height>117</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>107</xmin>
+      <ymin>38</ymin>
+      <xmax>123</xmax>
+      <ymax>73</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>121</xmin>
+      <ymin>42</ymin>
+      <xmax>141</xmax>
+      <ymax>77</ymax>
+    </bndbox>
+  </object>
+</annotation>

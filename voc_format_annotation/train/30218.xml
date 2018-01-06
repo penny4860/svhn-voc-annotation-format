@@ -1,0 +1,35 @@
+<annotation>
+  <filename>30218.png</filename>
+  <size>
+    <width>234</width>
+    <height>68</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>128</xmin>
+      <ymin>21</ymin>
+      <xmax>145</xmax>
+      <ymax>52</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>5</name>
+    <bndbox>
+      <xmin>143</xmin>
+      <ymin>20</ymin>
+      <xmax>161</xmax>
+      <ymax>51</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>160</xmin>
+      <ymin>15</ymin>
+      <xmax>175</xmax>
+      <ymax>46</ymax>
+    </bndbox>
+  </object>
+</annotation>

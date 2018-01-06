@@ -1,0 +1,35 @@
+<annotation>
+  <filename>8002.png</filename>
+  <size>
+    <width>253</width>
+    <height>117</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>111</xmin>
+      <ymin>77</ymin>
+      <xmax>118</xmax>
+      <ymax>94</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>10</name>
+    <bndbox>
+      <xmin>117</xmin>
+      <ymin>78</ymin>
+      <xmax>128</xmax>
+      <ymax>95</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>127</xmin>
+      <ymin>77</ymin>
+      <xmax>138</xmax>
+      <ymax>94</ymax>
+    </bndbox>
+  </object>
+</annotation>

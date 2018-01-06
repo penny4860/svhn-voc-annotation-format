@@ -1,0 +1,35 @@
+<annotation>
+  <filename>3000.png</filename>
+  <size>
+    <width>141</width>
+    <height>51</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>113</xmin>
+      <ymin>11</ymin>
+      <xmax>122</xmax>
+      <ymax>38</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>10</name>
+    <bndbox>
+      <xmin>121</xmin>
+      <ymin>11</ymin>
+      <xmax>131</xmax>
+      <ymax>38</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>10</name>
+    <bndbox>
+      <xmin>128</xmin>
+      <ymin>14</ymin>
+      <xmax>139</xmax>
+      <ymax>41</ymax>
+    </bndbox>
+  </object>
+</annotation>

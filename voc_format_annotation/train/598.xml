@@ -1,0 +1,35 @@
+<annotation>
+  <filename>598.png</filename>
+  <size>
+    <width>248</width>
+    <height>82</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>6</name>
+    <bndbox>
+      <xmin>99</xmin>
+      <ymin>40</ymin>
+      <xmax>125</xmax>
+      <ymax>75</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>8</name>
+    <bndbox>
+      <xmin>123</xmin>
+      <ymin>24</ymin>
+      <xmax>150</xmax>
+      <ymax>59</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>3</name>
+    <bndbox>
+      <xmin>149</xmin>
+      <ymin>14</ymin>
+      <xmax>175</xmax>
+      <ymax>49</ymax>
+    </bndbox>
+  </object>
+</annotation>

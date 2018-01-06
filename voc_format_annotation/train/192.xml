@@ -1,0 +1,17 @@
+<annotation>
+  <filename>192.png</filename>
+  <size>
+    <width>56</width>
+    <height>28</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>3</name>
+    <bndbox>
+      <xmin>22</xmin>
+      <ymin>2</ymin>
+      <xmax>34</xmax>
+      <ymax>24</ymax>
+    </bndbox>
+  </object>
+</annotation>

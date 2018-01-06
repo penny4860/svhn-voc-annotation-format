@@ -1,0 +1,35 @@
+<annotation>
+  <filename>8519.png</filename>
+  <size>
+    <width>295</width>
+    <height>111</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>8</name>
+    <bndbox>
+      <xmin>151</xmin>
+      <ymin>40</ymin>
+      <xmax>175</xmax>
+      <ymax>82</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>8</name>
+    <bndbox>
+      <xmin>174</xmin>
+      <ymin>40</ymin>
+      <xmax>185</xmax>
+      <ymax>82</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>185</xmin>
+      <ymin>44</ymin>
+      <xmax>202</xmax>
+      <ymax>86</ymax>
+    </bndbox>
+  </object>
+</annotation>

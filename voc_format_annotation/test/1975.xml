@@ -1,0 +1,35 @@
+<annotation>
+  <filename>1975.png</filename>
+  <size>
+    <width>162</width>
+    <height>70</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>64</xmin>
+      <ymin>29</ymin>
+      <xmax>74</xmax>
+      <ymax>46</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>74</xmin>
+      <ymin>27</ymin>
+      <xmax>86</xmax>
+      <ymax>44</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>6</name>
+    <bndbox>
+      <xmin>87</xmin>
+      <ymin>28</ymin>
+      <xmax>99</xmax>
+      <ymax>45</ymax>
+    </bndbox>
+  </object>
+</annotation>

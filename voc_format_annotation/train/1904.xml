@@ -1,0 +1,35 @@
+<annotation>
+  <filename>1904.png</filename>
+  <size>
+    <width>121</width>
+    <height>51</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>42</xmin>
+      <ymin>18</ymin>
+      <xmax>52</xmax>
+      <ymax>41</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>52</xmin>
+      <ymin>16</ymin>
+      <xmax>65</xmax>
+      <ymax>39</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>6</name>
+    <bndbox>
+      <xmin>66</xmin>
+      <ymin>16</ymin>
+      <xmax>78</xmax>
+      <ymax>39</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,35 @@
+<annotation>
+  <filename>4040.png</filename>
+  <size>
+    <width>225</width>
+    <height>96</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>5</name>
+    <bndbox>
+      <xmin>79</xmin>
+      <ymin>13</ymin>
+      <xmax>106</xmax>
+      <ymax>56</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>9</name>
+    <bndbox>
+      <xmin>107</xmin>
+      <ymin>14</ymin>
+      <xmax>132</xmax>
+      <ymax>57</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>126</xmin>
+      <ymin>11</ymin>
+      <xmax>149</xmax>
+      <ymax>54</ymax>
+    </bndbox>
+  </object>
+</annotation>

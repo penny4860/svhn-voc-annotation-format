@@ -1,0 +1,35 @@
+<annotation>
+  <filename>454.png</filename>
+  <size>
+    <width>222</width>
+    <height>98</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>88</xmin>
+      <ymin>29</ymin>
+      <xmax>98</xmax>
+      <ymax>67</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>5</name>
+    <bndbox>
+      <xmin>98</xmin>
+      <ymin>28</ymin>
+      <xmax>117</xmax>
+      <ymax>66</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>6</name>
+    <bndbox>
+      <xmin>118</xmin>
+      <ymin>30</ymin>
+      <xmax>136</xmax>
+      <ymax>68</ymax>
+    </bndbox>
+  </object>
+</annotation>

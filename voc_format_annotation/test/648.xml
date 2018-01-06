@@ -1,0 +1,35 @@
+<annotation>
+  <filename>648.png</filename>
+  <size>
+    <width>363</width>
+    <height>110</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>3</name>
+    <bndbox>
+      <xmin>199</xmin>
+      <ymin>21</ymin>
+      <xmax>229</xmax>
+      <ymax>96</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>3</name>
+    <bndbox>
+      <xmin>221</xmin>
+      <ymin>19</ymin>
+      <xmax>252</xmax>
+      <ymax>94</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>3</name>
+    <bndbox>
+      <xmin>248</xmin>
+      <ymin>18</ymin>
+      <xmax>278</xmax>
+      <ymax>93</ymax>
+    </bndbox>
+  </object>
+</annotation>

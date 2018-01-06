@@ -1,0 +1,35 @@
+<annotation>
+  <filename>1938.png</filename>
+  <size>
+    <width>250</width>
+    <height>106</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>8</name>
+    <bndbox>
+      <xmin>98</xmin>
+      <ymin>36</ymin>
+      <xmax>121</xmax>
+      <ymax>72</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>121</xmin>
+      <ymin>38</ymin>
+      <xmax>143</xmax>
+      <ymax>74</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>147</xmin>
+      <ymin>38</ymin>
+      <xmax>166</xmax>
+      <ymax>74</ymax>
+    </bndbox>
+  </object>
+</annotation>

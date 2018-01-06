@@ -1,0 +1,17 @@
+<annotation>
+  <filename>20160.png</filename>
+  <size>
+    <width>155</width>
+    <height>69</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>7</name>
+    <bndbox>
+      <xmin>72</xmin>
+      <ymin>15</ymin>
+      <xmax>91</xmax>
+      <ymax>51</ymax>
+    </bndbox>
+  </object>
+</annotation>

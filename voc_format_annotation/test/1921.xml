@@ -1,0 +1,35 @@
+<annotation>
+  <filename>1921.png</filename>
+  <size>
+    <width>152</width>
+    <height>62</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>45</xmin>
+      <ymin>19</ymin>
+      <xmax>63</xmax>
+      <ymax>51</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>8</name>
+    <bndbox>
+      <xmin>64</xmin>
+      <ymin>17</ymin>
+      <xmax>78</xmax>
+      <ymax>49</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>5</name>
+    <bndbox>
+      <xmin>80</xmin>
+      <ymin>14</ymin>
+      <xmax>94</xmax>
+      <ymax>46</ymax>
+    </bndbox>
+  </object>
+</annotation>

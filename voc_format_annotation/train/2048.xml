@@ -1,0 +1,35 @@
+<annotation>
+  <filename>2048.png</filename>
+  <size>
+    <width>127</width>
+    <height>49</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>3</name>
+    <bndbox>
+      <xmin>37</xmin>
+      <ymin>6</ymin>
+      <xmax>57</xmax>
+      <ymax>45</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>6</name>
+    <bndbox>
+      <xmin>58</xmin>
+      <ymin>4</ymin>
+      <xmax>81</xmax>
+      <ymax>43</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>80</xmin>
+      <ymin>5</ymin>
+      <xmax>93</xmax>
+      <ymax>44</ymax>
+    </bndbox>
+  </object>
+</annotation>

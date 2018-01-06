@@ -1,0 +1,35 @@
+<annotation>
+  <filename>4900.png</filename>
+  <size>
+    <width>267</width>
+    <height>115</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>89</xmin>
+      <ymin>29</ymin>
+      <xmax>121</xmax>
+      <ymax>84</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>122</xmin>
+      <ymin>26</ymin>
+      <xmax>148</xmax>
+      <ymax>81</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>8</name>
+    <bndbox>
+      <xmin>141</xmin>
+      <ymin>19</ymin>
+      <xmax>171</xmax>
+      <ymax>74</ymax>
+    </bndbox>
+  </object>
+</annotation>

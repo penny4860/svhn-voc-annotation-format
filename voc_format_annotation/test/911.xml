@@ -1,0 +1,35 @@
+<annotation>
+  <filename>911.png</filename>
+  <size>
+    <width>195</width>
+    <height>75</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>82</xmin>
+      <ymin>14</ymin>
+      <xmax>97</xmax>
+      <ymax>50</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>3</name>
+    <bndbox>
+      <xmin>100</xmin>
+      <ymin>16</ymin>
+      <xmax>115</xmax>
+      <ymax>52</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>10</name>
+    <bndbox>
+      <xmin>116</xmin>
+      <ymin>17</ymin>
+      <xmax>130</xmax>
+      <ymax>53</ymax>
+    </bndbox>
+  </object>
+</annotation>

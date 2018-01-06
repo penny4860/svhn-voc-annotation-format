@@ -1,0 +1,35 @@
+<annotation>
+  <filename>2021.png</filename>
+  <size>
+    <width>371</width>
+    <height>113</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>193</xmin>
+      <ymin>64</ymin>
+      <xmax>203</xmax>
+      <ymax>98</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>9</name>
+    <bndbox>
+      <xmin>204</xmin>
+      <ymin>57</ymin>
+      <xmax>214</xmax>
+      <ymax>91</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>214</xmin>
+      <ymin>60</ymin>
+      <xmax>235</xmax>
+      <ymax>94</ymax>
+    </bndbox>
+  </object>
+</annotation>

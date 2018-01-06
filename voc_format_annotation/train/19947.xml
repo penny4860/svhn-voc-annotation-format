@@ -1,0 +1,35 @@
+<annotation>
+  <filename>19947.png</filename>
+  <size>
+    <width>365</width>
+    <height>141</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>179</xmin>
+      <ymin>30</ymin>
+      <xmax>199</xmax>
+      <ymax>76</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>196</xmin>
+      <ymin>30</ymin>
+      <xmax>218</xmax>
+      <ymax>76</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>215</xmin>
+      <ymin>27</ymin>
+      <xmax>247</xmax>
+      <ymax>73</ymax>
+    </bndbox>
+  </object>
+</annotation>

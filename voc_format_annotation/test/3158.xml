@@ -1,0 +1,26 @@
+<annotation>
+  <filename>3158.png</filename>
+  <size>
+    <width>291</width>
+    <height>115</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <bndbox>
+      <xmin>157</xmin>
+      <ymin>55</ymin>
+      <xmax>176</xmax>
+      <ymax>82</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>4</name>
+    <bndbox>
+      <xmin>172</xmin>
+      <ymin>56</ymin>
+      <xmax>185</xmax>
+      <ymax>83</ymax>
+    </bndbox>
+  </object>
+</annotation>
