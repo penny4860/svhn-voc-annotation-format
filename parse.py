@@ -29,6 +29,10 @@ def get_label_text(box):
 
 
 from xml.etree.ElementTree import Element, SubElement, tostring, dump
+import os
+
+IMG_FOLDER = "imgs"
+
 json_data=open("imgs//annotation.json").read()
 anns = json.loads(json_data)
 for ann in anns:
@@ -36,6 +40,18 @@ for ann in anns:
     root = Element('annotation')
     fname = SubElement(root, "filename")
     fname.text = ann["filename"]
+    
+    import matplotlib.pyplot as plt
+    img = plt.imread(os.path.join(IMG_FOLDER, ann["filename"]))
+    h, w, _ = img.shape
+    
+    size_tag = SubElement(root, "size")
+    w_tag = SubElement(size_tag, "width")
+    h_tag = SubElement(size_tag, "height")
+    depth_tag = SubElement(size_tag, "depth")
+    w_tag.text = str(w)
+    h_tag.text = str(h)
+    depth_tag.text = str(3)
     
     for b in ann['boxes']:
         x1, y1, x2, y2 = get_box_text(b)
