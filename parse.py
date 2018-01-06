@@ -85,12 +85,12 @@ class VocAnnGenerator(object):
 argparser = argparse.ArgumentParser(description='Train and validate YOLO_v2 model on any dataset')
 argparser.add_argument('-f',
                        '--file',
-                       default=os.path.join("test_sample", "annotation.json"),
+                       default=os.path.join("json_format_annotation", "train.json"),
                        help='annotation file')
 
 argparser.add_argument('-d',
                        '--directory',
-                       default="test_sample",
+                       default="train",
                        help='image direcotry path')
 
 if __name__ == '__main__':
