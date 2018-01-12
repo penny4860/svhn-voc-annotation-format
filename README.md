@@ -20,7 +20,7 @@ Clone this project and check annotation file in xml format for train and test se
 
 This project provides a simple image tool to check annotation.
 
-Run view.py and load image directory and annotation directory, respectively. You can see the annotation result as follows.
+Run [view.py](https://github.com/penny4860/svhn-voc-annotation-format/blob/master/view.py) and load image directory and annotation directory, respectively. You can see the annotation result as follows.
 
 <img src="example/view2.png">
 
