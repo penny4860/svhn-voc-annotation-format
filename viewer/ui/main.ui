@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1531</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1501</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="display_layout"/>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>394</x>
+      <y>591</y>
+      <width>761</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Annotation</string>
+    </property>
+    <widget class="QTextEdit" name="te_predict_ann">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>30</y>
+       <width>361</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="tb_predict_ann">
+     <property name="geometry">
+      <rect>
+       <x>393</x>
+       <y>89</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>load file</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_plot_predict_box">
+     <property name="geometry">
+      <rect>
+       <x>485</x>
+       <y>88</y>
+       <width>182</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>plot box (blue line)</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_plot_truth_label">
+     <property name="geometry">
+      <rect>
+       <x>485</x>
+       <y>116</y>
+       <width>191</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>plot label (blue text)</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_plot_truth_box">
+     <property name="geometry">
+      <rect>
+       <x>101</x>
+       <y>89</y>
+       <width>175</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>plot box (red line)</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_plot_predict_label">
+     <property name="geometry">
+      <rect>
+       <x>101</x>
+       <y>119</y>
+       <width>255</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>plot label (red text)</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="te_truth_ann">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>371</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="tb_truth_ann">
+     <property name="geometry">
+      <rect>
+       <x>11</x>
+       <y>89</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>load file</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>591</y>
+      <width>391</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Display Option</string>
+    </property>
+    <widget class="QWidget" name="gridLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>341</width>
+       <height>95</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="input_layout">
+      <item row="1" column="1">
+       <widget class="QSpinBox" name="sp_n_rows">
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>20</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>n_rows</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QSpinBox" name="sp_n_cols">
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>20</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QPushButton" name="btn_back">
+        <property name="text">
+         <string>Back</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>n_cols</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2" colspan="2">
+       <widget class="QPushButton" name="btn_next">
+        <property name="text">
+         <string>Next</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1531</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionLoad_images"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLoad_images">
+   <property name="text">
+    <string>Load images</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
